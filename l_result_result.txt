@@ -1,0 +1,12 @@
+Hydrophobic contacts:        638467.883692662
+Van der waals:               13734.115831902784
+Deformation effect:          8.0
+Hydrogen bonds (HB):         2108
+Repulsive VDW score:         14659
+London dispersion force:     943571.1185124055
+Hydrophobic contacts:        638467.883692662
+Van der waals:               13734.115831902784
+Deformation effect:          8.0
+Hydrogen bonds (HB):         2108
+Repulsive VDW score:         14659
+London dispersion force:     943571.1185124055
