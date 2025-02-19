@@ -9,6 +9,7 @@ InteracTor is a tool for molecular structure analysis and conversion, allowing t
    ```sh
    git clone <repository_url>
    cd InteracTor
+   python InteracTor.py examples examples.csv
    ```
 
 2. Create the Conda environment for InteracTor:
