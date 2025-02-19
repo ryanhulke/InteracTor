@@ -1,0 +1,20 @@
+[project]
+name = "interactor"
+version = "0.1.0"
+description = "InteracTor is a novel toolkit designed for extracting three types of protein feature encodings: interaction features, physicochemical features, and compositional features. The interaction features include hydrogen bonds, hydrophobic contacts, repulsive interactions, and van der Waals interactions, capturing key aspects of molecular dynamics that are crucial in regulating protein function. By providing a comprehensive and systematic approach to feature extraction, InteracTor facilitates in-depth protein analysis, enabling researchers to better understand molecular interactions and their impact on biological processes."
+
+repository = "https://github.com/Dias-Lab/InteracTor"
+
+authors = [
+    {name = "Jose Cleydson F Silva"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

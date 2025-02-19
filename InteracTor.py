@@ -2517,11 +2517,11 @@ def main():
     args = parse_arguments()
 
     # Validate input directory
-    if not os.path.isdir(args.directory):
+    if not os.path.isdir(args.directory_data):
         print(f"Error: Directory '{args.directory}' does not exist.")
         sys.exit(1)
 
-    pdbfiles = [os.path.join(args.directory, file) for file in os.listdir(args.directory) if file.endswith(".pdb")]
+    pdbfiles = [os.path.join(args.directory_data, file) for file in os.listdir(args.directory_data) if file.endswith(".pdb")]
 
 
     f = open('.features.txt','r')
@@ -2597,10 +2597,3 @@ def main():
 if __name__ == "__main__":
     #main(sys.argv[1:])
     main()
-
-
-# In[ ]:
-
-
-
-
