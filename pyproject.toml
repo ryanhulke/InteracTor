@@ -1,24 +1,33 @@
-[project]
-name = "interactor"
+
+[tool.poetry]
+name = "InteracTor"
 version = "0.1.0"
-<<<<<<< HEAD
-description = "InteracTor is a tool for molecular structure analysis and conversion, allowing the extraction of interactions and relevant features for biochemical studies."
-=======
-description = "InteracTor is a novel toolkit designed for extracting three types of protein feature encodings: interaction features, physicochemical features, and compositional features. The interaction features include hydrogen bonds, hydrophobic contacts, repulsive interactions, and van der Waals interactions, capturing key aspects of molecular dynamics that are crucial in regulating protein function. By providing a comprehensive and systematic approach to feature extraction, InteracTor facilitates in-depth protein analysis, enabling researchers to better understand molecular interactions and their impact on biological processes."
+description = "InteracTor is a tool for molecular structure analysis and conversion, allowing the extraction of interactions and relevant features for biochemical studies"
+authors = ["Jose Cleydson F Silva <jferreiradasilva@ufl.edu>"]
+license = "MIT"
 
-repository = "https://github.com/Dias-Lab/InteracTor"
+packages = [
+    { include = "InteracTor.py" },
+    { include = "asa" },
+    { include = "file_H-Bonds.pdb" },
+    { include = "l_result_result.txt" },
+    { include = ".features.txt"},
+    ]
 
->>>>>>> 4a76cc785dac1542676a026ce0e85818107b4460
-authors = [
-    {name = "Jose Cleydson F Silva"}
+include = [
+    "examples/**",
+    "asa/**",
+    "*.log",
+    "*.pdb",
 ]
-license = {text = "MIT"}
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
 
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+InteracTor = "InteracTor:main"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
