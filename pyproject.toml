@@ -1,7 +1,14 @@
 [project]
 name = "interactor"
 version = "0.1.0"
+<<<<<<< HEAD
 description = "InteracTor is a tool for molecular structure analysis and conversion, allowing the extraction of interactions and relevant features for biochemical studies."
+=======
+description = "InteracTor is a novel toolkit designed for extracting three types of protein feature encodings: interaction features, physicochemical features, and compositional features. The interaction features include hydrogen bonds, hydrophobic contacts, repulsive interactions, and van der Waals interactions, capturing key aspects of molecular dynamics that are crucial in regulating protein function. By providing a comprehensive and systematic approach to feature extraction, InteracTor facilitates in-depth protein analysis, enabling researchers to better understand molecular interactions and their impact on biological processes."
+
+repository = "https://github.com/Dias-Lab/InteracTor"
+
+>>>>>>> 4a76cc785dac1542676a026ce0e85818107b4460
 authors = [
     {name = "Jose Cleydson F Silva"}
 ]
