@@ -7,19 +7,21 @@ InteracTor is a tool for molecular structure analysis and conversion, allowing t
 
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Dias-Lab/InteracTor.git
    cd InteracTor
    python InteracTor.py examples examples.csv
    ```
 
 2. Create the Conda environment for InteracTor:
    ```sh
+   git clone https://github.com/Dias-Lab/InteracTor.git
+   cd InteracTor
    conda create -n InteracTor
    conda activate InteracTor
    conda install conda-forge::openbabel
    ```
 
-3. Verify that the data directory contains both `.pdb` files and their respective `.mol2` files. If necessary, use OpenBabel to convert:
+   Verify that the data directory contains both `.pdb` files and their respective `.mol2` files. If necessary, use OpenBabel to convert:
    ```sh
    obabel -ipdb data/protein.pdb -omol2 > data/protein.pdb.mol2
    ```
