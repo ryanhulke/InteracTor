@@ -4,6 +4,7 @@
 InteracTor is a tool for molecular structure analysis and conversion, allowing the extraction of interactions and relevant features for biochemical studies.
 
 Silva, J. C., Schuster, L., Sexson, N., Kirst, M., Resende, M. F., & Dias, R. (2024). InteracTor: A new integrative feature extraction toolkit for improved characterization of protein structural properties. bioRxiv, 2024-10.
+https://www.biorxiv.org/content/10.1101/2024.10.07.616705v1.abstract
 
 ## Install using pypi
 pip install InteracTor-tools
