@@ -52,19 +52,19 @@ python InteracTor.py <path_to_examples> <path_to_examples_csv>
 The following files are generated or used by InteracTor:
 
 - `1_Reults.20887.interaction_terms_go_family_topfam.tsv` - Contains interaction terms and classifications.
-- `data/` - Directory containing input data.
+- `data/` - Directory containing input data (pdb files).
 - `features.txt` - List of extracted features.
 - `InteracTor.py` - Main script for running the program.
 - `Scripts/` - Directory with auxiliary scripts.
 - `1_Reults.interaction_terms.csv` - Identified interaction terms.
 - `bonds.log` - Log of identified bonds.
-- `examples/` - Directory with usage examples.
+- `examples/` - Directory with pdb files usage examples.
 - `file_H-Bonds.pdb` - File containing hydrogen bond information.
 - `l_result_result.txt` - Processing results.
 - `tension.param` - Tension parameters used.
 - `asa/` - Directory containing surface accessibility information.
 - `pdbTomol2Example.txt` - Example conversion from PDB to MOL2.
-- `examples.csv` - Example input file.
+- `examples.csv` - Example output file.
 - `hydrophobicity.param` - Hydrophobicity parameters.
 - `README.md` - Project documentation.
 - `up_date.bash` - Script for system updates.
