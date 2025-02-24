@@ -316,17 +316,18 @@ def PP_Distance(protein,protein_ligand):
                 HC_allowed_1 = HC_VDW + 0.5
                 HC_allowed_2 = HC_VDW + 2.0
 
-            # ----------------------------------------- HC2 -----------------------------------------
-            if DIS2 <= HC_allowed_1:
-                HC2 = 1
-
-            if DIS2 > HC_allowed_1 and DIS2 <= HC_allowed_2:
-                HC2 = (1 / 1.5) * ((HC_VDW + 2.0) ** 2 - DIS2 ** 2)
-
-            if DIS2 > HC_allowed_2:
-                HC2 = 0
-
-            HC_total2 += HC2
+                # ----------------------------------------- HC2 -----------------------------------------
+                if DIS2 <= HC_allowed_1:
+                    HC2 = 1
+    
+                if DIS2 > HC_allowed_1 and DIS2 <= HC_allowed_2:
+                    HC2 = (1 / 1.5) * ((HC_VDW + 2.0) ** 2 - DIS2 ** 2)
+    
+                if DIS2 > HC_allowed_2:
+                    HC2 = 0
+    
+                HC_total2 += HC2
+            
             if DIS2 <= permitido and nome_atomo[:1] != "H" and found_hibr == 1:
                 repulsive += 1
             if london + 1 / DIS2 != float("inf"):
